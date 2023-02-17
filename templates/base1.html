@@ -1,0 +1,383 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+
+      <link rel="stylesheet" type="text/css" href="{% static 'baseA/css/bootstrap.min.css' %}">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="{% static 'baseA/css/style.css' %}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{% static 'baseA/css/responsive.css' %}">
+      <!-- fevicon -->
+
+
+
+
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+
+
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Avodha Shopping</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'base/css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Dosis:400,600,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="{% static 'base/css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'base/css/responsive.css' %}" rel="stylesheet" />
+  <!-- index style -->
+  <link rel="stylesheet" href="{% static 'Home/assets/css/style-starter.css' %}">
+  <!-- Template CSS -->
+  <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
+  <!-- Template CSS -->
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+  rel="stylesheet"
+/>
+
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+  rel="stylesheet"
+/>
+
+<style>
+
+.w3l-grids-hny-2 .welcome-image h4 a {
+
+  color: #ff7315;
+
+}
+
+.w3l-grids-hny-2 .welcome-image h4 a:hover {
+  color: white;
+}
+
+.slider_section .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.brand_box {
+    top: 72px;
+}
+.layout_padding {
+    padding: 24px 0;
+}
+
+  .btn {
+  padding: .45rem 1.5rem .35rem;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #564262;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(0 0 0 / 37%), #ff7314c2);
+
+
+
+<!--}-->
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+.dropend .dropdown-toggle {
+  color: salmon;
+  margin-left: 1em;
+}
+.dropdown-item:hover {
+  background-color: #ff7315;
+  color: #fff;
+}
+.dropdown .dropdown-menu {
+  display: none;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 0.5em;
+  }
+}
+
+body{
+background-color: #000;
+}
+.info_section {
+  background-color: black;
+  color: #ffffff;
+}
+.footer_section {
+    background-color: #ff7315;
+    padding: 20px 15px;
+}
+.info_section .info_form form button {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: inline-block;
+    padding: 9px 30px;
+    background-color: #ff7315;
+    border: 1px solid #f89e12;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+</style>
+
+   </head>
+   <body>
+      <!-- banner bg main start -->
+      <div class="banner_bg_main">
+         <!-- logo section start -->
+         <div class="logo_section" style=padding-bottom:1px;>
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <div class="logo"><a href="/"><img src="{% static 'baseA/images/logo.png' %}"></a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="header_section" style=height:135px;background-color:#ff7315;background-image:linear-gradient(#ff7315,#ff7315,black);>
+            <div class="container p-4">
+               <div class="containt_main">
+                  <div id="mySidenav" class="sidenav">
+                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                     <a href="/">Home</a>
+                     <a href="/">Food Items</a>
+                     <a href="{% url 'cartDetails' %}">Cart</a>
+                      {% if user.is_authenticated %}
+                     <a href="{% url 'logout' %}">Logout</a>
+                      {% else %}
+                      <a href="account/login">login</a>
+                      <a href="account/register">Register</a>
+                      {% endif %}
+                  </div>
+                  <span class="toggle_icon" onclick="openNav()"><img src="{% static 'baseA/images/toggle-icon.png' %}"></span>
+                  <div class="dropdown">
+                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Category
+                     </button>
+                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                        <a class="dropdown-item" href="/">All Product</a>
+                         {% for i in ct %}
+                        <a class="dropdown-item" href={{i.get_url}}>{{i.name}}</a>
+                         {% endfor %}
+
+                     </div>
+                  </div>
+                  <div class="main">
+                     <!-- Another variation with a button -->
+                     <div class="input-group">
+                        <form class="d-flex input-group" action="{% url 'search' %}" method="get">
+                            <input type="text" class="form-control" placeholder="Search this blog" aria-label="Search" name="q"/>
+                             <div class="input-group-append">
+                               <button class="btn btn-secondary" type="button" value="q" style="background-color: #f26522; border-color:#f26522 ">
+                               <i class="fa fa-search"></i>
+                               </button>
+                             </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="header_box">
+                    <div class="login_menu">
+                        <ul>
+                           <li class="nav-item text-center mx-2 mx-lg-1">
+                              <a class="nav-link" href="{% url 'cartDetails' %}">
+                                <div>
+
+                                  <i class="fas fa-cart-shopping fa-lg mb-1"></i>
+                                  <span class="badge rounded-pill badge-notification bg-dark">{{itc}}</span>
+                                </div>
+                                Cart
+                              </a>
+                            </li>
+                           {% if user.is_authenticated %}
+                            <li class="nav-item text-center mx-2 mx-lg-1">
+                              <a class="nav-link" href="{% url 'logout' %}">
+                                <div>
+                                  <i class="fas fa-sign-out-alt fa-lg mb-1"></i>
+                                </div>
+                                Logout
+                              </a>
+                            </li>
+                            {% else %}
+                            <li class="nav-item text-center mx-2 mx-lg-1">
+                              <a class="nav-link" href="account/login">
+                                <div>
+                                  <i class="fas fa-sign-in-alt fa-lg mb-1"></i>
+
+                                </div>
+                                login
+                              </a>
+                            </li>
+                            <li class="nav-item text-center mx-2 mx-lg-1">
+                              <a class="nav-link" href="account/register">
+                                <div>
+                                  <i class="fas fa-user-plus fa-lg mb-1"></i>
+                                </div>
+                                Register
+                              </a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         {% if user.is_authenticated %}
+
+  {% block content %}
+
+  {% endblock %}
+  {% endif %}
+
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="info_contact">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="">
+              <img src="{% static 'base/images/location.png' %}" alt="">
+              <span>
+                Avodha Shopping, 34/1000, N.H 47, Edapally, Kochi, Kerala, India
+              </span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="">
+              <img src="{% static 'base/images/call.png' %}" alt="">
+              <span>
+                Call : +012334567890
+              </span>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="">
+              <img src="{% static 'base/images/mail.png' %}" alt="">
+              <span>
+                Avodha_Shopping@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info_form">
+            <form action="">
+              <input type="text" placeholder="Enter your email">
+              <button>
+                subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="info_social">
+            <div>
+              <a href="">
+                <img src="{% static 'base/images/facebook-logo-button.png' %}" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <img src="{% static 'base/images/twitter-logo-button.png' %}" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <img src="{% static 'base/images/linkedin.png' %}" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <img src="{% static 'base/images/instagram.png' %}" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section ">
+    <p>
+      &copy; <span id="displayYear"></span> All Rights Reserved. Design by
+      <a href="https://sanjukj36.github.io/-Sanju-k-Joseph/">Sanju k joseph</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+ <script src="{% static 'baseA/js/jquery.min.js' %}"></script>
+
+      <script src="{% static 'baseA/js/bootstrap.bundle.min.js' %}"></script>
+
+      <script>
+
+
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+         }
+
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+   </body>
+</html>

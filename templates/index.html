@@ -1,0 +1,126 @@
+{% extends 'base1.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<style>
+	.py-lg-5 {
+    padding-top: 2rem!important;
+    padding-bottom: 0rem!important;
+}
+.pagination {
+    padding: 0px 0;
+}
+.layout_padding {
+    padding: 19px 0;
+}
+</style>
+
+
+<!-- //w3l-banner-slider-main -->
+<section class="w3l-grids-hny-2 ">
+	<!-- /content-6-section -->
+	<div class="grids-hny-2-mian ">
+		<div class="container py-lg-5">
+			<h3 class="hny-title mb-0 text-center">Quality <span>food</span> Items</h3>
+			<p class="mb-4 text-center">Register with us & here valuate food items at your door step</p>
+			<div class="welcome-grids row mt-2 ">
+
+				{% for i in page_obj.object_list %}
+				<div class="col-lg-2 col-md-4 col-6 welcome-image container_p">
+					<div class="boxhny13">
+						<a href="{{i.get_url}}">
+							<img src="{{i.img.url}}" class="img-fluid" style="height:291px;width:207px " alt="" />
+							<div class="boxhny-content">
+								<h3 class="title">${{i.price}}</h3>
+							</div>
+						</a>
+					</div>
+					<h4><a href="{{i.get_url}}">{{i.name}}</a></h4>
+				</div>
+				{% endfor %}
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<div class="pagination container_p">
+    <span class="step-links">
+
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; First</a>
+            <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
+        {% endif %}
+        <span class="current">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+        </span>
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">Next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">Last &raquo;</a>
+        {% endif %}
+
+    </span>
+</div>
+
+
+
+<style>
+
+a{
+  text-decoration: none;
+}
+
+p, li, a{
+  font-size: 20px;
+}
+
+
+
+.container_p {
+  width: 100%;
+  max-width: max-content;
+  margin: 39px auto;
+  position: relative;
+  text-align: center;
+}
+
+
+/* GENERAL STYLES */
+
+.pagination{
+  padding: 30px 0;
+}
+
+.pagination ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination a{
+  display: inline-block;
+  padding: 10px 18px;
+  color: white;
+}
+
+/* ONE */
+
+
+
+.p1 a.is-active{
+  background-color: #ff9800;
+  border-radius: 100%;
+  color: #fff;
+}
+
+
+
+</style>
+
+  </body>
+
+  </html>
+  {% endblock %}

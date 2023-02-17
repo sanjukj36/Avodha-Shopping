@@ -1,0 +1,80 @@
+
+{% extends 'base1.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+button.transmitv-cart a {
+    color: white;
+}
+</style>
+<section class="w3l-ecommerce-main ">
+	<!-- /products-->
+	<div class=" ">
+		<div class="container py-lg-5">
+			<h3 class="hny-title mb-0 text-center">Shop With <span>Us</span></h3>
+			<p class="text-center">Handpicked Favourites just for you</p>
+			<!-- /row-->
+			<div class="ecom-products-grids row mt-lg-12 mt-3">
+
+
+				{% for i in pr %}
+				<div class="col-lg-6 col-6 product-incfhny mt-4">
+					<div class="product-grid2">
+						<div class="product-image2">
+							<a href="#">
+								<img class="pic-1 img-fluid" src="{{i.img.url}}" style="width: 450px;height:500px" >
+								<img class="pic-2 img-fluid" src="{{i.img.url}}" style="width: 450px;height:500px" >
+							</a>
+							<ul class="social">
+
+								{% if i.stock <= 0 %}
+								{% else %}
+									<li><a href="{% url 'addcart' i.id %}" data-tip="Add to Cart"><span class="fa fa-shopping-bag"></span></a>
+									</li>
+								{% endif %}
+
+							</ul>
+							<div class="transmitv single-item">
+								<form action="#" method="post">
+									{% csrf_token %}
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="transmitv_item" value="Men's Pink Shirt">
+									<input type="hidden" name="amount" value="599.99">
+
+									{% if i.stock <= 0 %}
+									<button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart" style=" background-color: #fe0000;"href="{% url 'addcart' i.id %}">
+										Sorry No Stock Left
+									</button>
+									{% else %}
+									<button type="submit" class="transmitv-cart ptransmitv-cart add-to-cart">
+										<a href="{% url 'addcart' i.id %}">
+											Add to Cart
+										</a>
+									</button>
+									{% endif %}
+
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-6 product-incfhny mt-4">
+					<div class="product-grid2">
+						<div class="product-content">
+							<h1 class="title"><a href="#">{{i.name}}</a></h1>
+                            <p>{{i.dec}}</p>
+							<span class="price">${{i.price}}</span>
+                            <p>Stock Left:{{i.stock}}</p>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+
+			</div>
+			<!-- //row-->
+		</div>
+	</div>
+</section>
+  {% endblock %}
