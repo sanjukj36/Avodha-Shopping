@@ -1,4 +1,4 @@
-# [Avodha-Shopping](https://avodhashop.pythonanywhere.com/)
+#[Avodha-Shopping](https://avodhashop.pythonanywhere.com/)
 To learn more about our project, visit my website [Avodha Shopping](https://avodhashop.pythonanywhere.com/).
 
 This project is a food delivery website. 
@@ -30,4 +30,8 @@ It's a login page.
 
 Here, check if the user is authorised or not by its username and password.
 ![2023-02-17 (8)](https://user-images.githubusercontent.com/85171419/219689220-43eb8293-8967-45cd-828e-e842c6111e12.png)
+
+# Home page (after login)
+You can see the food items that are available after you log in.
+![home-full](https://user-images.githubusercontent.com/85171419/219695963-44989195-f8fd-4f1d-aaca-98cc32dcfd73.png)
 
