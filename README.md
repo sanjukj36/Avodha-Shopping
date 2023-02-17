@@ -10,4 +10,11 @@ Only after you have logged in can you proceed to the next step. For that, there 
 ![manu](https://user-images.githubusercontent.com/85171419/219659264-9a60d8e4-e8af-4b9f-8a7f-48e476f009be.png)
 
 
-# Register
+# Register page
+![image](https://user-images.githubusercontent.com/85171419/219662879-035ec139-ac3c-4605-974c-27686b9e4724.png)
+It's a registration page for users here. They want to fill out their details.
+You cannot use your previously created username and email address here.
+![username](https://user-images.githubusercontent.com/85171419/219672751-4098206f-aca7-4f32-9e4b-bc86532b5f37.png)
+![email](https://user-images.githubusercontent.com/85171419/219672886-ab80242a-a97d-4ec5-8e58-c49cae010414.png)
+Password validation is also available.
+![pass](https://user-images.githubusercontent.com/85171419/219673229-0d329966-70dd-44e8-a0df-e49719d303eb.png)
