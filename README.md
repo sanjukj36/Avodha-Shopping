@@ -36,3 +36,13 @@ Here, check if the user is authorised or not by its username and password.
 You can see the food items that are available after you log in.
 ![home-full](https://user-images.githubusercontent.com/85171419/219695963-44989195-f8fd-4f1d-aaca-98cc32dcfd73.png)
 
+Begin by clicking on the "hamburger menu" icon in the navigation bar. There, you can see some options.
+![hu](https://user-images.githubusercontent.com/85171419/219709867-115052e0-3eb8-464c-8c60-1459dfe94f65.png)
+"Home" From any page, you can quickly return to the home page. same feature when you click the logo icon "Avodha Shopping".
+
+Next is "Food Items" the same as the home page. From any page, you can quickly return to the food items page.
+
+Similarly, you can quickly return to the cart page by clicking cart.
+
+Similarly, you can quickly return to the logout page by clicking Logout. but when you are not logged in at all, there will be only two other options. Login and register.
+
