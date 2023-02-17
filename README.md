@@ -26,7 +26,7 @@ Password validation is also available.
 
 # Login page
 It's a login page.
-![2023-02-17 (6)](https://user-images.githubusercontent.com/85171419/219688888-bbad6093-f638-461b-ae1d-01859635cdf7.png)
+![2023-02-17 (7)](https://user-images.githubusercontent.com/85171419/219689613-651f19cd-713c-47b9-a24d-5174f229f9ac.png)
 
 Here, check if the user is authorised or not by its username and password.
 ![2023-02-17 (8)](https://user-images.githubusercontent.com/85171419/219689220-43eb8293-8967-45cd-828e-e842c6111e12.png)
