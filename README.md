@@ -44,7 +44,7 @@ Begin by clicking on the "hamburger menu" icon in the navigation bar. There, you
 
 "Food Items" same feature as home page,quickly return to food items from any page.
 
-Similarly, you can quickly return to the cart page by clicking "Cart".
+ "Cart" you can quickly return to the cart page.
 
 Similarly, you can quickly return to the logout page by clicking "Logout". but when you are not logged in at all, there will be only two other options. "Login" and "Register".
 
