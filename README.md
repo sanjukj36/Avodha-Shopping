@@ -18,7 +18,7 @@ You must first log in before proceeding to the next step. For that, there are t
 User registration page
 ![image](https://user-images.githubusercontent.com/85171419/219662879-035ec139-ac3c-4605-974c-27686b9e4724.png)
 
-You cannot use your previously created username and email address here.
+You cannot use previously created username and email address here.
 ![username](https://user-images.githubusercontent.com/85171419/219672751-4098206f-aca7-4f32-9e4b-bc86532b5f37.png)
 ![email](https://user-images.githubusercontent.com/85171419/219672886-ab80242a-a97d-4ec5-8e58-c49cae010414.png)
 
