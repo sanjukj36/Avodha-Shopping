@@ -14,7 +14,7 @@ Only after you have logged in can you proceed to the next step. For that, there 
 
 
 # Register page
-It's a registration page for users here. They want to fill out their details.
+User registration page.
 ![image](https://user-images.githubusercontent.com/85171419/219662879-035ec139-ac3c-4605-974c-27686b9e4724.png)
 
 You cannot use your previously created username and email address here.
