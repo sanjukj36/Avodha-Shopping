@@ -40,7 +40,7 @@ You can see the food items that are available after you log in.
 Begin by clicking on the "hamburger menu" icon in the navigation bar. There, you can see some options.
 ![hu](https://user-images.githubusercontent.com/85171419/219709867-115052e0-3eb8-464c-8c60-1459dfe94f65.png)
 
-"Home" From any page, you can quickly return to the home page. same feature when you click the logo icon "Avodha Shopping".
+"Home" from any page you can quickly return to the home page same fetcher as clicking the "Avodha Shopping" logo.
 
 Next is "Food Items" the same as the home page. From any page, you can quickly return to the food items page.
 
