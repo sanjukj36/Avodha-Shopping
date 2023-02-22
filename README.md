@@ -38,7 +38,6 @@ You can see the food items that are available after you log in.
 ![home-full](https://user-images.githubusercontent.com/85171419/219695963-44989195-f8fd-4f1d-aaca-98cc32dcfd73.png)
 
 Begin by clicking on the "hamburger menu" icon in the navigation bar. There, you can see some options.
-![hu](https://user-images.githubusercontent.com/85171419/219709867-115052e0-3eb8-464c-8c60-1459dfe94f65.png)
 
 "Home" from any page you can quickly return to the home page same feature as clicking the "Avodha Shopping" logo.
 
@@ -47,4 +46,7 @@ Begin by clicking on the "hamburger menu" icon in the navigation bar. There, you
  "Cart" you can quickly return to the cart page.
  
  "Logout" quickly logout from any page.
+ 
+![hu](https://user-images.githubusercontent.com/85171419/219709867-115052e0-3eb8-464c-8c60-1459dfe94f65.png)
+
 
