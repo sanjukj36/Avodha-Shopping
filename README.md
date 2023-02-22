@@ -14,7 +14,7 @@ Only after you have logged in can you proceed to the next step. For that, there 
 
 
 # Register page
-User registration page.
+User registration page
 ![image](https://user-images.githubusercontent.com/85171419/219662879-035ec139-ac3c-4605-974c-27686b9e4724.png)
 
 You cannot use your previously created username and email address here.
@@ -26,7 +26,7 @@ Password validation is also available.
 
 
 # Login page
-It's a login page.
+It's a login page
 ![2023-02-17 (7)](https://user-images.githubusercontent.com/85171419/219689613-651f19cd-713c-47b9-a24d-5174f229f9ac.png)
 
 User authentication
