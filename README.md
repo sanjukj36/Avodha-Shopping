@@ -41,8 +41,7 @@ Begin by clicking on the "hamburger menu" icon in the navigation bar. There, you
 ![hu](https://user-images.githubusercontent.com/85171419/219709867-115052e0-3eb8-464c-8c60-1459dfe94f65.png)
 
 "Home" from any page you can quickly return to the home page same fetcher as clicking the "Avodha Shopping" logo.
-
-Next is "Food Items" the same as the home page. From any page, you can quickly return to the food items page.
+"Food Items" same feacher as home page,quickly return to food items from any page.
 
 Similarly, you can quickly return to the cart page by clicking "Cart".
 
