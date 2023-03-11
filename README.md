@@ -11,8 +11,9 @@ Django 2.2 is the framework used here, and Python 3.9 is the programming languag
 ![home](https://user-images.githubusercontent.com/85171419/224475034-0ae7600c-03a7-41da-8737-b3fc79ddde16.png)
 
 You must first log in before proceeding to the next step. For that, there are two options.-"LOGIN" & "REGISTER", available on the nav bar, and also these options are in the "[hamburger menu](https://www.weareconflux.com/wp-content/uploads/2022/01/Hamburger-Menu-Icons.png)" icon as well.
-
-![manu](https://user-images.githubusercontent.com/85171419/219659264-9a60d8e4-e8af-4b9f-8a7f-48e476f009be.png)
+![home2](https://user-images.githubusercontent.com/85171419/224475144-c1d663fa-9c52-4cf8-a2c8-18237922a3cc.png)
+<!-- 
+![manu](https://user-images.githubusercontent.com/85171419/219659264-9a60d8e4-e8af-4b9f-8a7f-48e476f009be.png) -->
 
 
 # Register page
