@@ -71,10 +71,18 @@ If you write tea, it will show the product name that contains tea and also the p
 
 ![screencapture-127-0-0-1-8000-search-2023-03-11-15_24_42](https://user-images.githubusercontent.com/85171419/224477744-00c15ecb-d4a0-4a95-a28c-f1cea54844cd.png)
 
-Next is the cart. The number appears in the top right corner of the cart icon, as shown in the following image. It represents the number of food items added to the cart.
+# Cart page
+Next is the cart, which refers to the cart page. The number appears in the top right corner of the cart icon, as shown in the following image. It represents the number of food items added to the cart.
 ![screencapture-127-0-0-1-8000-cart-cartDetails-2023-03-11-19_13_48](https://user-images.githubusercontent.com/85171419/224488188-9f5e6fa9-ca7f-415e-a21d-d5899d92b35c.png)
 
+You can add food items to the cart from the detail page. You can only add the products if stock is available. Alternatively, it displays "sorry, no stock left" for the product you are attempting to add to your cart. 
 
+![tea](https://user-images.githubusercontent.com/85171419/224489287-c4cb7666-51d9-43a5-8b66-ad62ed364041.png)
+![burger ](https://user-images.githubusercontent.com/85171419/224489295-1aa8a3a0-b965-42de-a868-48f663af7a28.png)
 
+For cart reference, the first table contains "Product" which contains the name of the food item and an image, "Price" which represents the price of a single potion, and "Quantity" which you can add by clicking "+" and remove by clicking "-". Following that is "Total," which represents the sum of the one product. and the last one is the delete icon, which means to remove or delete the product from the cart.
 
+the second table, "Cart Summary." "Subtotal" is the total amount of all food items or the sum of all totals.
+"Shipping": for shipping, there is a charge of $10, so that amount is added to the "total" in the last place.
+![image](https://user-images.githubusercontent.com/85171419/224489463-380bb8d5-2105-43a6-9f1e-af613a27a779.png)
 
