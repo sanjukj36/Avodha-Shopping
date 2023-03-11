@@ -7,9 +7,10 @@ Django 2.2 is the framework used here, and Python 3.9 is the programming languag
 
 
 # Home page (without login)
-![home](https://user-images.githubusercontent.com/85171419/219644289-ea4b1a99-e301-4e35-bcc9-4af8dd380054.png)
 
-You must first log in before proceeding to the next step. For that, there are two options.-"LOGIN" & "REGISTER", available on the nav bar, and also these options are in the "[hamburger menu](https://www.weareconflux.com/wp-content/uploads/2022/01/Hamburger-Menu-Icons.png)" icon as well.
+![home](https://user-images.githubusercontent.com/85171419/224475034-0ae7600c-03a7-41da-8737-b3fc79ddde16.png)
+
+You must first log in before proceeding to the next step. For that, there are two options.-"LOGIN" & "REGISTER", available on the nav bar, and also these options are in the "[hamburger menu](https://www.weareconflux.com/wp-content/uploads/2022/01/Hamburger-Menu-Icons.png)" icon as well.
 
 ![manu](https://user-images.githubusercontent.com/85171419/219659264-9a60d8e4-e8af-4b9f-8a7f-48e476f009be.png)
 
