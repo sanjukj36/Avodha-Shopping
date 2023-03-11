@@ -71,6 +71,8 @@ If you write tea, it will show the product name that contains tea and also the p
 
 ![screencapture-127-0-0-1-8000-search-2023-03-11-15_24_42](https://user-images.githubusercontent.com/85171419/224477744-00c15ecb-d4a0-4a95-a28c-f1cea54844cd.png)
 
+Next is the cart. The number appears in the top right corner of the cart icon, as shown in the following image. It represents the number of food items added to the cart.
+![screencapture-127-0-0-1-8000-cart-cartDetails-2023-03-11-19_13_48](https://user-images.githubusercontent.com/85171419/224488188-9f5e6fa9-ca7f-415e-a21d-d5899d92b35c.png)
 
 
 
